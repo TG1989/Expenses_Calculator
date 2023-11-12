@@ -1,6 +1,5 @@
 # Expenses_Calculator
 
-# Expenses Calculator
 
 ![expenses](https://github.com/TG1989/Expenses_Calculator/assets/115742987/19fad413-50ff-40cc-9141-018eefdd9175)
 
