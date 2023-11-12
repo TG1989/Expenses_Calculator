@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="bg"></div>
+    <div class="mainContainer">
+        <div class="appName">
+            <h1>Expenses Calculator</h1>
+        </div>
+
+        <div class="container">
+            <h3 class="greet">Welcome, <input type="text" placeholder="Enter Name..." id="name-input"></h3>
+
+            <form>
+                <div class="double">
+
+                    <div class="expenses-form">
+                        <label for="">Expenses:</label>
+                        <input type="text" placeholder="Enter Item" id="expenses-input">
+                    </div>
+
+                    <div class="form-price">
+                        <label for="">Price:</label>
+                        <input type="number" placeholder="Enter Price" id="price-input">
+                    </div>
+
+                </div>
+
+                <div class="double-2">
+                    <div class="form-state">
+                        <input type="checkbox"  id="status-input">
+                        <label for="">Paid</label>
+                    </div>
+
+                    <button class="add-btn">Add</button>
+
+                </div>
+            </form>
+
+            <div class="total">
+                Total Expenses : <span id="total-info">0</span> &#36;
+            </div>
+
+            <select name="" id="selection">
+                <option value="all">All</option>
+                <option value="unpaid">Unpaid</option>
+                <option value="paid">Paid</option>
+            </select>
+
+         
+
+            <div class="list"></div>
+
+                    
+        </div>
+
+        
+
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
